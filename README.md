@@ -4,7 +4,7 @@ A sudoku game with simple GUI that allows player to play new random game, insert
 [gui-pic](https://imgur.com/gallery/gAEZbYP/)
 
 
-##How to Play
+## How to Play
 In order to "write" down a number on the grid, players have to click on one of the number buttons first, then click on the chosen square to register their moves. 
 Some assistances players can use to have a better experience:
 - If the player's move is invalid (identical number in the same rowm, column, or subgrid), the square is highlighted in red for 5s and the move will not be registered.
@@ -17,5 +17,5 @@ There are several option that players can ultilize during the game:
 4. Delete button: completely delete the current board.
 5. Restart Game button: delete all of the moves of the board and allow players to re-play. If the board is deleted, the deleted board is restored.
 
-##Structure
+## Structure
 The program is written in Java. The gui is handled by using Swing. The solve button is working using backtracking algorithm.
