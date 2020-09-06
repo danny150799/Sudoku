@@ -1,7 +1,7 @@
 # Sudoku
 A sudoku game with simple GUI that allows player to play new random game, insert new games and solve the current game.
 
-![gui-pic](https://imgur.com/gallery/gAEZbYP)
+![gui-pic](https://imgur.com/gallery/gAEZbYP/)
 
 ##How to Play
 In order to "write" down a number on the grid, players have to click on one of the number buttons first, then click on the chosen square to register their moves. 
