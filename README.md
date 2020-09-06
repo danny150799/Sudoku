@@ -1,7 +1,8 @@
 # Sudoku
 A sudoku game with simple GUI that allows player to play new random game, insert new games and solve the current game.
 
-![gui-pic](https://imgur.com/gallery/gAEZbYP/)
+[gui-pic](https://imgur.com/gallery/gAEZbYP/)
+
 
 ##How to Play
 In order to "write" down a number on the grid, players have to click on one of the number buttons first, then click on the chosen square to register their moves. 
@@ -11,7 +12,10 @@ Some assistances players can use to have a better experience:
 
 There are several option that players can ultilize during the game:
 1. New Game button: generate a new Sudoku game in display it on the board. The old board is deleted.
-2. Solve Game button: completely solve the current board and display the answer. (Check Structure for more details)
+2. Solve Game button: completely solve the current board and display the answer. 
 3. Hint button: press hint and another square to review the answer of that square. Currently, there isn't any limit.
 4. Delete button: completely delete the current board.
 5. Restart Game button: delete all of the moves of the board and allow players to re-play. If the board is deleted, the deleted board is restored.
+
+##Structure
+The program is written in Java. The gui is handled by using Swing. The solve button is working using backtracking algorithm.
